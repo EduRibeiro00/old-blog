@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a {
+    @apply bg-none shadow-none text-indigo-500 hover:text-indigo-600;
+    text-shadow: none;
+}
+
+.btn-indigo {
+    @apply m-2 px-3 py-1 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white hover:text-white;
+}
