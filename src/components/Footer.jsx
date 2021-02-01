@@ -7,7 +7,7 @@ const currentYear =  new Date().getFullYear()
 
 const Footer = () => {
     return (
-        <div className="absolute bottom-0 m-auto mb-3">
+        <div className="w-full text-center absolute bottom-0 mb-3">
             <div className="text-gray-800 text-xs">@ {currentYear} - Eduardo Carreira Ribeiro</div>
             <div className="flex align-center justify-center mt-2">
                 <a className="text-lg text-gray-800 hover:text-gray-700 px-2" href="mailto:eribeiro306@gmail.com"><FaEnvelope /></a>

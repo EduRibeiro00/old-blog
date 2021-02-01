@@ -2,15 +2,15 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
-const Layout = children => {
+const Layout = props => {
     return (
-        <>
+        <main>
             <Header />
-            <div class="page-content">
-                {children}
+            <div className="p-7">
+                {props.children}
             </div>
             <Footer />
-        </>
+        </main>
     )
 }
 

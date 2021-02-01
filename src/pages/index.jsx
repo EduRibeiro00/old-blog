@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const LandingPage = () => {
   return (
-    <main className="bg-gradient-to-b from-indigo-900 to-indigo-500 flex flex-col items-center justify-center h-screen">
+    <main className="bg-gradient-to-b from-gray-900 to-blue-600 flex flex-col items-center justify-center h-screen">
       <LandingCard />
       <Footer />
     </main>
