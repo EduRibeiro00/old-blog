@@ -7,7 +7,9 @@ const LandingPage = () => {
   return (
     <main className="bg-gradient-to-b from-gray-900 to-blue-600 flex flex-col items-center justify-center h-screen">
       <LandingCard />
-      <Footer />
+      <div className="absolute bottom-0">
+        <Footer />
+      </div>
     </main>
   )
 }
