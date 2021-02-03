@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="block py-2 md:py-0 md:pr-2 md:mr-2 md:border-r"><a className="text-white text-sm hover:underline hover:text-white" href="/cv">CV</a></div>
                 <div className="block py-2 md:py-0 md:pr-2 md:mr-2 md:border-r"><a className="text-white text-sm hover:underline hover:text-white" href="/projects">Projects</a></div>
                 <div className="block py-2 md:py-0 md:pr-2 md:mr-2 md:border-r"><a className="text-white text-sm hover:underline hover:text-white" href="https://github.com/EduRibeiro00">GitHub</a></div>
-                <div className="block pt-2 md:py-0 md:pr-2 md:mr-2"><a className="text-white text-sm hover:underline hover:text-white" href="https://www.linkedin.com/in/eduardo-ribeiro-a3a5b9192/">LinkedIn</a></div>
+                <div className="block pt-2 md:py-0 md:pr-2"><a className="text-white text-sm hover:underline hover:text-white" href="https://www.linkedin.com/in/eduardo-ribeiro-a3a5b9192/">LinkedIn</a></div>
             </div>
         </nav>
     )
