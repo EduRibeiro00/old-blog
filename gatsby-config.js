@@ -13,13 +13,9 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "articles",
-        path: `${__dirname}/src/articles/`,
+        name: "blog",
+        path: `${__dirname}/src/`,
       },
-      // options: {
-      //   name: "article_images",
-      //   path: `${__dirname}/src/articles/images/`,
-      // }
     },
     {
       resolve: `gatsby-plugin-typography`,
@@ -30,40 +26,33 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        // CommonMark mode (default: true)
-        commonmark: true,
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // Pedantic mode (default: true)
-        pedantic: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-
-        // In your gatsby-transformer-remark plugin array
-        plugins: [{
-          resolve: 'gatsby-remark-emojis',
-          options: {
-            // Deactivate the plugin globally (default: true)
-            active : true,
-            // Add a custom css class
-            class  : 'emoji-icon',
-            // In order to avoid pattern mismatch you can specify
-            // an escape character which will be prepended to the
-            // actual pattern (e.g. `#:poop:`).
-            escapeCharacter : '#', // (default: '')
-            // Select the size (available size: 16, 24, 32, 64)
-            size   : 64,
-            // Add custom styles
-            styles : {
-              display      : 'inline',
-              margin       : '0',
-              'margin-top' : '1px',
-              position     : 'relative',
-              top          : '5px',
-              width        : '25px'
+        plugins: [
+            {
+              resolve: `gatsby-remark-images`,
+              options: {
+                // It's important to specify the maxWidth (in pixels) of
+                // the content container as this plugin uses this as the
+                // base for generating different widths of each image.
+                maxWidth: 590,
+              },
+            },
+            {
+            resolve: 'gatsby-remark-emojis',
+            options: {
+              class  : 'emoji-icon',
+              escapeCharacter : '#',
+              size   : 64,
+              styles : {
+                display      : 'inline',
+                margin       : '0',
+                'margin-top' : '1px',
+                position     : 'relative',
+                top          : '5px',
+                width        : '25px'
+              }
             }
           }
-        }]
+        ]
       }
     }
   ],
