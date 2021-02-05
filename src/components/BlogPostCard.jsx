@@ -12,7 +12,7 @@ const BlogPostCard = ({ className, node }) => {
         <article className={className}>
             <Link to={node.fields.slug}>
               <div className="shadow-2xl rounded-xl overflow-hidden hover:bg-gray-200 transition">
-                  <Img className="w-full m-0" fluid={coverImg} />
+                  <Img fluid={coverImg} />
                   <div className="p-2">
                       <h1 className="text-lg">{node.frontmatter.title}</h1>
                       <div className="text-gray-700 text-xs">{node.excerpt}</div>

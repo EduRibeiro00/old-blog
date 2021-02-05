@@ -42,7 +42,7 @@ export const query = graphql`
                         cover {
                             childImageSharp {
                                 fluid(maxWidth: 800) {
-                                ...GatsbyImageSharpFluid
+                                    ...GatsbyImageSharpFluid
                                 }
                             }
                         }
