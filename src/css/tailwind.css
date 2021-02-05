@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+html, body {
+    @apply min-h-screen;
+}
+
 a {
     @apply bg-none shadow-none text-blue-600 hover:text-blue-700;
     text-shadow: none;
