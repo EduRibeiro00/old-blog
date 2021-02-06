@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaExternalLinkAlt } from '@react-icons/all-files/fa/FaExternalLinkAlt'
 
-const CVExperienceItem = ({ node }) => {
+const CVProjectsItem = ({ node }) => {
     const techsSection = node.frontmatter.techs && node.frontmatter.techs.length > 0 ?
         (
             <div className="flex">
@@ -17,11 +17,10 @@ const CVExperienceItem = ({ node }) => {
 
     return (
         <div>
-            <h1>{node.frontmatter.position}</h1>
-            <h2> <a href={node.frontmatter.company_link}>{node.frontmatter.company_name}<FaExternalLinkAlt /></a></h2>
+            <h1><a href={node.frontmatter.link}>{node.frontmatter.title}<FaExternalLinkAlt /></a></h1>
             <div className="flex">
                 <div>{node.frontmatter.start_date} - {node.frontmatter.end_date}</div>
-                <div>{node.frontmatter.location}</div>
+                <div>Team of {node.frontmatter.team_size} people</div>
             </div>
             <div dangerouslySetInnerHTML={{ __html: node.html }} />
             {techsSection}
@@ -29,4 +28,4 @@ const CVExperienceItem = ({ node }) => {
     )
 }
 
-export default CVExperienceItem
+export default CVProjectsItem

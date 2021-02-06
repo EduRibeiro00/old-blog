@@ -1,16 +1,19 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 
-import CVEducationItem from './CVEducationItem'
+import CVProjectsItem from './CVProjectsItem'
 
-const CVEducation = ({ data }) => {
+const CVProjects = ({ data }) => {
+    console.log( data.allMarkdownRemark.edges)
+
     return (
-        <div id="cv-education">
-            <h2>Education</h2>
+        <div id="cv-projects">
+            <h2>Projects</h2>
+            <p>A more extensive list of my projects can be found <a href="/projects">here</a>.</p>
             <div>
                 {
-                  data.allMarkdownRemark.edges.map(({ node }) => (
-                    <CVEducationItem key={node.id} node={node} />
+                   data.allMarkdownRemark.edges.map(({ node }) => (
+                    <CVProjectsItem key={node.id} node={node} />
                   ))
                 }
             </div>
@@ -26,7 +29,7 @@ export default (props) => (
                     sort: { fields: [frontmatter___order], order: ASC },
                     filter: {
                         frontmatter: {
-                            cv_section: {eq: "education"}
+                            cv_section: {eq: "projects"}
                         }
                     }
                 ) {
@@ -34,12 +37,12 @@ export default (props) => (
                         node {
                             id
                             frontmatter {
-                                institution_name
-                                institution_link
-                                course_name
+                                title
+                                link
                                 start_date
                                 end_date
-                                location
+                                team_size
+                                techs
                             }
                             html
                         }
@@ -47,6 +50,6 @@ export default (props) => (
                 }
             }
         `}
-        render={(data) => <CVEducation data={data} {...props} />}
+        render={(data) => <CVProjects data={data} {...props} />}
     />
 )
