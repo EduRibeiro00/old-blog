@@ -10,8 +10,8 @@ const CVEducation = ({ data }) => {
             <h2>Education</h2>
             <div>
                 {
-                  nodes.map((elem, idx) => (
-                    <CVEducationItem key={idx} node={elem.node} />
+                  nodes.map(({ node }) => (
+                    <CVEducationItem key={node.id} node={node} />
                   ))
                 }
             </div>
@@ -24,7 +24,7 @@ export default (props) => (
         query={graphql`
             query {
                 allMarkdownRemark(
-                    sort: { fields: [frontmatter___order], order: DESC },
+                    sort: { fields: [frontmatter___order], order: ASC },
                     filter: {
                         frontmatter: {
                             cv_section: {eq: "education"}
@@ -35,7 +35,12 @@ export default (props) => (
                         node {
                             id
                             frontmatter {
-                                title
+                                institution_name
+                                institution_link
+                                course_name
+                                start_date
+                                end_date
+                                location
                             }
                             html
                         }

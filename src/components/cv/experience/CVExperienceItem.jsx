@@ -2,8 +2,6 @@ import React from 'react'
 import { FaExternalLinkAlt } from '@react-icons/all-files/fa/FaExternalLinkAlt'
 
 const CVExperienceItem = ({ node }) => {
-    console.log(node.frontmatter)
-
     const techsSection = node.frontmatter.techs && node.frontmatter.techs.length > 0 ?
         (
             <div className="flex">
