@@ -1,8 +1,19 @@
 import React from 'react'
 
+import Layout from '../components/Layout'
+import CVHeader from '../components/cv/CVHeader'
+import CVMainColumn from '../components/cv/CVMainColumn'
+import CVSidebar from '../components/cv/CVSidebar'
+
 const CV = () => {
     return (
-        <h1>CV Page</h1>
+        <Layout>
+            <CVHeader />
+            <div className="grid grid-cols-2">
+                <CVMainColumn />
+                <CVSidebar />
+            </div>
+        </Layout>
     )
 }
 

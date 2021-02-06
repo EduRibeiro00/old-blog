@@ -1,0 +1,44 @@
+[
+    {
+        "position": "Research Assistant - \"Big Data for Energy\"",
+        "company_name": "INESC TEC",
+        "company_link": "https://www.inesctec.pt/en",
+        "start_date": "Fev 2020",
+        "end_date": "Present",
+        "location": "Porto, Portugal",
+        "bullets": [
+            "Developing a platform to foster energy analytics for R&D institutions, by automating energy and weather data collection and management.",
+            "Automated energy data collection by creating scripts that periodically fetch data from APIs of electricity data sources in Europe.",
+            "Implemented detection of missing values by creating software that monitors DB with 130+ tables, each one with an average of 3 million rows.",
+            "Allowed registered users to extract desired data by building an authentication layer and a REST API, and by helping create a user interface.",
+            "Organized and presented a hands-on workshop for the INESC TEC Power and Energy Systems team, to showcase the tool for their future usage."
+        ],
+        "techs": ["Python", "Django", "Pandas", "Apache Cassandra", "RabbitMQ", "Celery", "Nginx", "Vue", "Docker", "GitLab CI/CD"]
+    },
+    {
+        "position": "Software Engineer Intern",
+        "company_name": "Critical Software",
+        "company_link": "https://www.criticalsoftware.com/en",
+        "start_date": "Jul 2020",
+        "end_date": "Jul 2020",
+        "location": "Coimbra, Portugal (Remote)",
+        "bullets": [
+            "Learned about the methodologies and tools used in critical projects, such as software for airplanes, trains and banks.",
+            "Built a real time chat service using Java and Kafka.",
+            "Built an automatic encryption/decryption system for smart meter data with Java, SSL and XML documents."
+        ],
+        "techs": ["Java", "Kafka", "SSL", "XML"]
+    },
+    {
+        "position": "Active Member",
+        "company_name": "NIAEFEUP - Informatics Engineering Student Branch @ FEUP",
+        "company_link": "https://ni.fe.up.pt/",
+        "start_date": "Nov 2019",
+        "end_date": "Present",
+        "location": "Porto, Portugal",
+        "bullets": [
+            "Participated in and organized a variety of events/projects in different areas, ranging from Cybersecurity to AI to Competitive Programming.",
+            "Organized and presented a Git, GitHub and Open Source contributions workshop for 20+ students."
+        ]
+    }
+]

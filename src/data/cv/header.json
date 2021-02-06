@@ -1,0 +1,16 @@
+{
+    "name": "Eduardo Ribeiro",
+    "description": "I am a 4th year Software Engineering student from Porto, with great passion for programming/software developing, artificial intelligence, algorithms, distributed systems and just software engineering as a whole. I have grown to be a proactive person that always seeks to have initiative and to keep learning about my interests, even outside of college. Moreover, I am also a big fan of sports, mainly football, tennis and basketball. Other hobbies include chess, gaming, and exercising.",
+    "occupations": [
+        {
+            "title": "Software Engineering MSc Student",
+            "institution": "FEUP",
+            "institution_link": "https://sigarra.up.pt/feup/pt/web_page.inicial"
+        },
+        {
+            "title": "Research Assistant",
+            "institution": "INESC TEC",
+            "institution_link": "https://www.inesctec.pt/en"
+        }
+    ]
+}
