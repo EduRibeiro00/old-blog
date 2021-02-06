@@ -2,11 +2,13 @@ import React from 'react'
 import { FaExternalLinkAlt } from '@react-icons/all-files/fa/FaExternalLinkAlt'
 
 const CVExperienceItem = ({ node }) => {
-    const techsSection = node.techs && node.techs.length > 0 ?
+    console.log(node.frontmatter)
+
+    const techsSection = node.frontmatter.techs && node.frontmatter.techs.length > 0 ?
         (
             <div className="flex">
                 {
-                    node.techs.map((tech) => (
+                    node.frontmatter.techs.map((tech) => (
                         <div>{tech}</div>
                     ))
                 }
@@ -14,22 +16,16 @@ const CVExperienceItem = ({ node }) => {
         )
         :
         null
-    
+
     return (
         <div>
-            <h1>{node.position}</h1>
-            <h2> <a href={node.company_link}>{node.company_name}<FaExternalLinkAlt /></a></h2>
+            <h1>{node.frontmatter.position}</h1>
+            <h2> <a href={node.frontmatter.company_link}>{node.frontmatter.company_name}<FaExternalLinkAlt /></a></h2>
             <div className="flex">
-                <div>{node.start_date} - {node.end_date}</div>
-                <div>{node.location}</div>
+                <div>{node.frontmatter.start_date} - {node.frontmatter.end_date}</div>
+                <div>{node.frontmatter.location}</div>
             </div>
-            <ul>
-                {
-                    node.bullets.map((bullet) => (
-                        <li>{bullet}</li>
-                    ))
-                }
-            </ul>
+            <div dangerouslySetInnerHTML={{ __html: node.html }} />
             {techsSection}
         </div>
     )

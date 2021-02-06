@@ -1,18 +1,20 @@
 import React from 'react'
 
 import CVExperience from './experience/CVExperience'
+import CVEducation from './education/CVEducation'
 
-const CVMainColumn = ({title, link}) => {
+const CVMainColumn = () => {
     return (
         <div>
             <div>
                 {/* TODO: acrescentar icons aqui */}
-                <a href="#experience">Experience</a>
-                <a href="#education">Education</a>
-                <a href="#projects">Projects</a>
-                <a href="#volunteering">Volunteering</a>
+                <a href="#cv-experience">Experience</a>
+                <a href="#cv-education">Education</a>
+                <a href="#cv-projects">Projects</a>
+                <a href="#cv-volunteering">Volunteering</a>
             </div>
             <CVExperience />
+            <CVEducation />
         </div>
     )
 }

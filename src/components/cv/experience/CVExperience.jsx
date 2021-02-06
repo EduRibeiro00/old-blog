@@ -4,14 +4,13 @@ import { graphql, StaticQuery } from 'gatsby'
 import CVExperienceItem from './CVExperienceItem'
 
 const CVExperience = ({ data }) => {
-    const nodes = data.allExperienceJson.edges
     return (
-        <div>
+        <div id="cv-experience">
             <h2>Experience</h2>
             <div>
                 {
-                  nodes.map((elem, idx) => (
-                    <CVExperienceItem key={idx} node={elem.node} />
+                  data.allMarkdownRemark.edges.map(({ node }) => (
+                    <CVExperienceItem key={node.id} node={node} />
                   ))
                 }
             </div>
@@ -23,17 +22,27 @@ export default (props) => (
     <StaticQuery 
         query={graphql`
             query {
-                allExperienceJson {
+                allMarkdownRemark(
+                    sort: { fields: [frontmatter___order], order: ASC },
+                    filter: {
+                        frontmatter: {
+                            cv_section: {eq: "experience"}
+                        }
+                    }
+                ) {
                     edges {
                         node {
-                            company_link
-                            company_name
-                            bullets
-                            end_date
-                            start_date
-                            position
-                            techs
-                            location
+                            id
+                            frontmatter {
+                                position
+                                company_name
+                                company_link
+                                start_date
+                                end_date
+                                location
+                                techs
+                            }
+                            html
                         }
                     }
                 }

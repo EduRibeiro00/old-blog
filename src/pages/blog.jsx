@@ -14,7 +14,7 @@ const Blog = ({data}) => {
             <p className="mb-7">{data.allMarkdownRemark.totalCount} {data.allMarkdownRemark.totalCount === 1 ? 'post' : 'posts'}</p>
             <div className="flex flex-wrap justify-center md:justify-evenly">
                 {
-                  data.allMarkdownRemark.edges.map(({node}) => (
+                  data.allMarkdownRemark.edges.map(({ node }) => (
                     <BlogPostCard 
                         className="w-9/12 md:w-80 mx-5 my-3" 
                         node={node}
