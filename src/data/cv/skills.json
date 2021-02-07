@@ -1,0 +1,14 @@
+[
+    {
+        "level": "Proficient",
+        "skills": ["Git", "Java", "Javascript"]
+    },
+    {
+        "level": "Medium Understanding",
+        "skills": ["Docker", "Go"]
+    },
+    {
+        "level": "Prior Experience",
+        "skills": ["NoSQL"]
+    }
+]

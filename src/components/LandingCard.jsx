@@ -39,7 +39,7 @@ const LandingCard = () => {
                 <a className="btn-blue" href="https://github.com/EduRibeiro00">
                     GitHub
                 </a>
-                <a className="btn-blue" href="https://www.linkedin.com/in/eduardo-ribeiro-a3a5b9192/">
+                <a className="btn-blue" href="https://www.linkedin.com/in/eduardocribeiro/">
                     LinkedIn
                 </a>
             </div>

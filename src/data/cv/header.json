@@ -1,6 +1,6 @@
 {
     "name": "Eduardo Ribeiro",
-    "description": "I am a 4th year Software Engineering student from Porto, with great passion for programming/software developing, artificial intelligence, algorithms, distributed systems and just software engineering as a whole. I have grown to be a proactive person that always seeks to have initiative and to keep learning about my interests, even outside of college. Moreover, I am also a big fan of sports, mainly football, tennis and basketball. Other hobbies include chess, gaming, and exercising.",
+    "bio": "I am a 4th year Software Engineering student from Porto, with great passion for programming/software developing, artificial intelligence, algorithms, distributed systems and just software engineering as a whole. I have grown to be a proactive person that always seeks to have initiative and to keep learning about my interests, even outside of college. Moreover, I am also a big fan of sports, mainly football, tennis and basketball. Other hobbies include chess, gaming, and exercising.",
     "occupations": [
         {
             "title": "Software Engineering MSc Student",
@@ -12,5 +12,18 @@
             "institution": "INESC TEC",
             "institution_link": "https://www.inesctec.pt/en"
         }
-    ]
+    ],
+    "email": {
+        "name": "eribeiro306@gmail.com",
+        "link": "mailto:eribeiro306@gmail.com"
+    },
+    "linkedin": {
+        "name": "eduardocribeiro",
+        "link": "https://www.linkedin.com/in/eduardocribeiro/"
+    },
+    "github": {
+        "name": "EduRibeiro00",
+        "link": "https://github.com/EduRibeiro00"
+    },
+    "cv_pdf": "https://drive.google.com/file/d/1BCoa6XkNceibS2luckn5xjIc4Pjip-oB/view?usp=sharing"
 }
