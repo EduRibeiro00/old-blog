@@ -9,10 +9,9 @@ import profilePhoto from '../../images/profile-photo.jpg'
 const CVHeader = ({ data }) => {
     const CVData = data.cvJson
 
-    // TODO: por isto em duas colunas como deve ser
     return (
-        <div className="grid grid-cols-2">
-            <div>
+        <div className="md:grid md:grid-cols-4">
+            <div className="md:col-span-3">
                 <h1>{CVData.name}</h1>
                 <div>
                     {

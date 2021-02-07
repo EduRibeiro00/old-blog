@@ -7,7 +7,7 @@ import CVVolunteering from './volunteering/CVVolunteering'
 
 const CVMainColumn = () => {
     return (
-        <div>
+        <div className="md:col-span-3">
             <div>
                 {/* TODO: acrescentar icons aqui */}
                 <a href="#cv-experience">Experience</a>
