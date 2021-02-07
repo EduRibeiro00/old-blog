@@ -4,11 +4,11 @@ import { graphql, StaticQuery } from 'gatsby'
 const CVInterests = ({ data }) => {
     return (
         <div>
-            <h2>Interests</h2>
+            <h2 className="text-2xl mb-2 underline">Interests</h2>
             <div className="flex">
                 {
                     data.allInterestsJson.edges.map(({ node }) => (
-                        <div>{node.name}</div>
+                        <div className="btn-white text-sm mr-2">{node.name}</div>
                     ))
                 }
             </div>

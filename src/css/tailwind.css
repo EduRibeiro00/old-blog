@@ -9,10 +9,18 @@ html, body {
 }
 
 a {
-    @apply bg-none shadow-none text-blue-600 hover:text-blue-700;
+    @apply bg-none shadow-none text-blue-600 hover:text-blue-900;
     text-shadow: none;
 }
 
 .btn-blue {
-    @apply m-2 px-3 py-1 rounded-xl bg-blue-600 hover:bg-blue-700 text-white hover:text-white;
+    @apply px-3 py-1 rounded-lg bg-blue-800 hover:bg-blue-900 text-white hover:text-white;
+}
+
+.btn-white {
+    @apply border border-black px-3 py-1 rounded-lg bg-white hover:bg-gray-300 text-blue-800 hover:text-blue-800
+}
+
+.profile-pic {
+    @apply rounded-full m-0 border-4 border-blue-600;
 }

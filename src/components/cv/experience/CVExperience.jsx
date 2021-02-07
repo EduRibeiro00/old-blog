@@ -6,7 +6,7 @@ import CVExperienceItem from './CVExperienceItem'
 const CVExperience = ({ data }) => {
     return (
         <div id="cv-experience">
-            <h2>Experience</h2>
+            <h2 className="text-3xl">Experience</h2>
             <div>
                 {
                   data.allMarkdownRemark.edges.map(({ node }) => (

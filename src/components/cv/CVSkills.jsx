@@ -3,16 +3,16 @@ import { graphql, StaticQuery } from 'gatsby'
 
 const CVSkills = ({ data }) => {
     return (
-        <div>
-            <h2>Skills</h2>
+        <div className="mb-8">
+            <h2 className="text-2xl mb-2 underline">Skills</h2>
             {
                 data.allSkillsJson.edges.map(({ node }) => (
-                    <div>
-                        <h3>{node.level}</h3>
-                        <div className="flex">
+                    <div className="mb-2">
+                        <h3 className="text-sm">{node.level}</h3>
+                        <div className="flex mt-1">
                             {
                                 node.skills.map(skill => (
-                                    <div>{skill}</div>
+                                    <div className="btn-blue text-sm mr-2">{skill}</div>
                                 ))
                             }
                         </div>

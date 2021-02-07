@@ -10,28 +10,28 @@ const CVHeader = ({ data }) => {
     const CVData = data.cvJson
 
     return (
-        <div className="md:grid md:grid-cols-4">
-            <div className="md:col-span-3">
-                <h1>{CVData.name}</h1>
-                <div>
+        <div className="md:grid md:grid-cols-3 md:gap-6">
+            <div className="md:col-span-2">
+                <h1 className="text-5xl">{CVData.name}</h1>
+                <div className="mt-4">
                     {
                         CVData.occupations.map((occupation) => (
-                            <h2>{occupation.title} @ <a href={occupation.institution_link}>{occupation.institution}</a></h2>
+                            <h2 className="text-lg">{occupation.title} @ <a href={occupation.institution_link}>{occupation.institution}</a></h2>
                         ))
                     }
                 </div>
-                <p>{CVData.bio}</p>
+                <p className="mt-5 text-sm">{CVData.bio}</p>
             </div>
-            <div>
-                <div className="p-0 mb-2 w-1/3">
-                    <img src={profilePhoto} alt="Profile" className="rounded-full m-0 border-4 border-blue-600" />
+            <div className="flex flex-col items-center">
+                <div className="w-3/5">
+                    <img src={profilePhoto} alt="Profile" className="profile-pic" />
                 </div>
-                <div>
+                <div className="mt-3 text-sm">
                     <div className="flex items-center"><FaEnvelope className="mr-1" /> <a href={CVData.email.link}>{CVData.email.name}</a></div>
                     <div className="flex items-center"><FaLinkedin className="mr-1" /> <a href={CVData.linkedin.link}>{CVData.linkedin.name}</a></div>
                     <div className="flex items-center"><FaGithub className="mr-1" /> <a href={CVData.github.link}>{CVData.github.name}</a></div>
                 </div>
-                <div><a href={CVData.cv_pdf}>CV PDF</a></div>
+                <div className="mt-3"><a className="btn-blue" href={CVData.cv_pdf}>CV PDF</a></div>
             </div>
         </div>
     )

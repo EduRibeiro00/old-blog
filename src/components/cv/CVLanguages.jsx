@@ -3,11 +3,11 @@ import { graphql, StaticQuery } from 'gatsby'
 
 const CVLanguages = ({ data }) => {
     return (
-        <div>
-            <h2>Languages</h2>
+        <div className="mb-8">
+            <h2 className="text-2xl mb-2 underline">Languages</h2>
             {
                 data.allLanguagesJson.edges.map(({ node }) => (
-                    <div>{node.name}: {node.level}</div>
+                    <div className="text-sm"><span className="font-bold text-black">{node.name}:</span> {node.level}</div>
                 ))
             }
         </div>
