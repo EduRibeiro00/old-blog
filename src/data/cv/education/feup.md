@@ -8,6 +8,6 @@ location: Porto, Portugal
 order: 0
 cv_section: education
 ---
-* **Current cumulative GPA: 18.42/20**; currently enrolled in the 4th year
+* **Current cumulative GPA: 18.42/20.** Currently enrolled in the 4th year
 * **Relevant Coursework:** Algorithms and Data Structures, Distributed Systems, Web App Development, Databases, Artificial Intelligence
 * Received a **Merit Scholarship** in the 2018/19 Academic Year, given to the best students in Portugal.

@@ -9,10 +9,10 @@ const CVSkills = ({ data }) => {
                 data.allSkillsJson.edges.map(({ node }) => (
                     <div className="mb-2">
                         <h3 className="text-sm">{node.level}</h3>
-                        <div className="flex mt-1">
+                        <div className="flex flex-wrap mt-1">
                             {
                                 node.skills.map(skill => (
-                                    <div className="btn-blue text-sm mr-2">{skill}</div>
+                                    <div className="btn-blue text-sm mr-2 my-1">{skill}</div>
                                 ))
                             }
                         </div>

@@ -5,10 +5,10 @@ const CVInterests = ({ data }) => {
     return (
         <div>
             <h2 className="text-2xl mb-2 underline">Interests</h2>
-            <div className="flex">
+            <div className="flex flex-wrap">
                 {
                     data.allInterestsJson.edges.map(({ node }) => (
-                        <div className="btn-white text-sm mr-2">{node.name}</div>
+                        <div className="btn-white text-sm mr-2 my-1">{node.name}</div>
                     ))
                 }
             </div>

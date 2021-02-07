@@ -8,6 +8,18 @@ html, body {
     @apply min-h-screen;
 }
 
+ul, ol {
+    @apply list-inside;
+}
+
+ul {
+    @apply list-disc;
+}
+
+ol {
+    @apply list-decimal;
+}
+
 a {
     @apply bg-none shadow-none text-blue-600 hover:text-blue-900;
     text-shadow: none;

@@ -1,7 +1,8 @@
 ---
-title: Talk A Bit
+title: Talk A Bit 2020
 link: https://talkabit.org/
-date: Jan 2020
+start_date: Jan 2020
+end_date: Jan 2020
 location: Porto, Portugal
 order: 0
 cv_section: volunteering

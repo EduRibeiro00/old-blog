@@ -1,5 +1,5 @@
 ---
-title: Lab 4.0 - Monitoring and Management System for Laboratories
+title: Lab 4.0 - Monitoring and Management System for Labs
 link: http://laboratorio-4.herokuapp.com/login
 start_date: Oct 2020
 end_date: Jan 2021

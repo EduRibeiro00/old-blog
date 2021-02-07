@@ -5,8 +5,8 @@ import CVVolunteeringItem from './CVVolunteeringItem'
 
 const CVVolunteering = ({ data }) => {
     return (
-        <div id="cv-volunteering">
-            <h2>Volunteering</h2>
+        <div id="cv-volunteering" className="mb-8">
+            <h2 className="text-4xl mb-4 underline">Volunteering</h2>
             <div>
                 {
                   data.allMarkdownRemark.edges.map(({ node }) => (
@@ -36,7 +36,9 @@ export default (props) => (
                             frontmatter {
                                 title
                                 link
-                                date
+                                start_date
+                                end_date
+                                location
                             }
                             html
                         }

@@ -10,8 +10,8 @@ const CVHeader = ({ data }) => {
     const CVData = data.cvJson
 
     return (
-        <div className="md:grid md:grid-cols-3 md:gap-6">
-            <div className="md:col-span-2">
+        <div className="lg:grid lg:grid-cols-3 lg:gap-6">
+            <div className="lg:col-span-2">
                 <h1 className="text-5xl">{CVData.name}</h1>
                 <div className="mt-4">
                     {
@@ -22,16 +22,16 @@ const CVHeader = ({ data }) => {
                 </div>
                 <p className="mt-5 text-sm">{CVData.bio}</p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="mt-8 lg:mt-0 flex flex-col items-center">
                 <div className="w-3/5">
                     <img src={profilePhoto} alt="Profile" className="profile-pic" />
                 </div>
-                <div className="mt-3 text-sm">
-                    <div className="flex items-center"><FaEnvelope className="mr-1" /> <a href={CVData.email.link}>{CVData.email.name}</a></div>
-                    <div className="flex items-center"><FaLinkedin className="mr-1" /> <a href={CVData.linkedin.link}>{CVData.linkedin.name}</a></div>
-                    <div className="flex items-center"><FaGithub className="mr-1" /> <a href={CVData.github.link}>{CVData.github.name}</a></div>
+                <div className="mt-3">
+                    <div className="flex items-center my-2 lg:my-0"><FaEnvelope className="mr-1" /> <a href={CVData.email.link}>{CVData.email.name}</a></div>
+                    <div className="flex items-center my-2 lg:my-0"><FaLinkedin className="mr-1" /> <a href={CVData.linkedin.link}>{CVData.linkedin.name}</a></div>
+                    <div className="flex items-center my-2 lg:my-0"><FaGithub className="mr-1" /> <a href={CVData.github.link}>{CVData.github.name}</a></div>
                 </div>
-                <div className="mt-3"><a className="btn-blue" href={CVData.cv_pdf}>CV PDF</a></div>
+                <div className="mt-3 text-xl lg:text-base"><a className="btn-blue" href={CVData.cv_pdf}>CV PDF</a></div>
             </div>
         </div>
     )

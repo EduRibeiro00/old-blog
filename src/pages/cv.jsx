@@ -9,7 +9,7 @@ const CV = () => {
     return (
         <Layout>
             <CVHeader />
-            <div className="md:mt-5 md:grid md:grid-cols-3 md:gap-6">
+            <div className="lg:mt-5 lg:grid lg:grid-cols-3 lg:gap-6">
                 <CVMainColumn />
                 <CVSidebar />
             </div>

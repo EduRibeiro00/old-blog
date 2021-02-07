@@ -5,8 +5,8 @@ import CVEducationItem from './CVEducationItem'
 
 const CVEducation = ({ data }) => {
     return (
-        <div id="cv-education">
-            <h2>Education</h2>
+        <div id="cv-education" className="mb-8">
+            <h2 className="text-4xl mb-4 underline">Education</h2>
             <div>
                 {
                   data.allMarkdownRemark.edges.map(({ node }) => (

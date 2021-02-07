@@ -1,11 +1,11 @@
 [
     {
         "level": "Proficient",
-        "skills": ["Git", "Java", "Javascript"]
+        "skills": ["Git", "Java", "Python", "Django", "Javascript", "C/C++", "HTML/CSS/PHP", "Laravel", "Node.js", "SQL", "REST API", "OOP"]
     },
     {
         "level": "Medium Understanding",
-        "skills": ["Docker", "Go"]
+        "skills": ["Docker", "React", "Go", "CI/CD", "Agile/Scrum", "Unix/Linux"]
     },
     {
         "level": "Prior Experience",
