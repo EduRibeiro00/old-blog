@@ -3,6 +3,7 @@ import React from 'react'
 import CVExperience from './experience/CVExperience'
 import CVEducation from './education/CVEducation'
 import CVProjects from './projects/CVProjects'
+import CVVolunteering from './volunteering/CVVolunteering'
 
 const CVMainColumn = () => {
     return (
@@ -17,6 +18,7 @@ const CVMainColumn = () => {
             <CVExperience />
             <CVEducation />
             <CVProjects />
+            <CVVolunteering />
         </div>
     )
 }

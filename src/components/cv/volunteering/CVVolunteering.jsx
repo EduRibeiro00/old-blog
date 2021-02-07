@@ -1,17 +1,16 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 
-import CVProjectsItem from './CVProjectsItem'
+import CVVolunteeringItem from './CVVolunteeringItem'
 
-const CVProjects = ({ data }) => {
+const CVVolunteering = ({ data }) => {
     return (
-        <div id="cv-projects">
-            <h2>Projects</h2>
-            <p>A more extensive list of my projects can be found <a href="/projects">here</a>.</p>
+        <div id="cv-volunteering">
+            <h2>Volunteering</h2>
             <div>
                 {
-                   data.allMarkdownRemark.edges.map(({ node }) => (
-                    <CVProjectsItem key={node.id} node={node} />
+                  data.allMarkdownRemark.edges.map(({ node }) => (
+                    <CVVolunteeringItem key={node.id} node={node} />
                   ))
                 }
             </div>
@@ -27,7 +26,7 @@ export default (props) => (
                     sort: { fields: [frontmatter___order], order: ASC },
                     filter: {
                         frontmatter: {
-                            cv_section: {eq: "projects"}
+                            cv_section: {eq: "volunteering"}
                         }
                     }
                 ) {
@@ -37,10 +36,7 @@ export default (props) => (
                             frontmatter {
                                 title
                                 link
-                                start_date
-                                end_date
-                                team_size
-                                techs
+                                date
                             }
                             html
                         }
@@ -48,6 +44,6 @@ export default (props) => (
                 }
             }
         `}
-        render={(data) => <CVProjects data={data} {...props} />}
+        render={(data) => <CVVolunteering data={data} {...props} />}
     />
 )

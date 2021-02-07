@@ -6,6 +6,8 @@ import { FaCalendar } from '@react-icons/all-files/fa/FaCalendar'
 import { FaClock } from '@react-icons/all-files/fa/FaClock'
 
 const BlogPostCard = ({ className, node }) => {
+    console.log(node)
+
     const coverImg = node.frontmatter.cover.childImageSharp.fluid
 
     return (
@@ -17,7 +19,7 @@ const BlogPostCard = ({ className, node }) => {
                       <h1 className="text-lg">{node.frontmatter.title}</h1>
                       <div className="text-gray-700 text-xs">{node.excerpt}</div>
                       <div className="flex justify-between mt-2 text-xs text-gray-700">
-                        <div className="flex items-center"><FaCalendar className="text-base mr-1" />{node.frontmatter.date}</div>
+                        <div className="flex items-center"><FaCalendar className="text-base mr-1" />{node.frontmatter.post_date}</div>
                         <div className="flex items-center"> <FaClock className="text-base mr-1" /> {node.timeToRead} {node.timeToRead === 1 ? 'min' : 'mins'}</div>
                       </div>
                   </div>

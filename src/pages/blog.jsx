@@ -32,13 +32,18 @@ export const query = graphql`
     query {
         allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC },
+            filter: {
+                frontmatter: {
+                    blogpost: {eq: true}
+                }
+            }
         ) {
             totalCount
             edges {
                 node {
                     frontmatter {
                         title
-                        date(formatString: "DD MMMM, YYYY")
+                        post_date(formatString: "DD MMMM, YYYY")
                         cover {
                             childImageSharp {
                                 fluid(maxWidth: 800) {
