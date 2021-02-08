@@ -6,8 +6,6 @@ import { FaCalendar } from '@react-icons/all-files/fa/FaCalendar'
 import { FaClock } from '@react-icons/all-files/fa/FaClock'
 
 const BlogPostCard = ({ className, node }) => {
-    console.log(node)
-
     const coverImg = node.frontmatter.cover.childImageSharp.fluid
 
     return (

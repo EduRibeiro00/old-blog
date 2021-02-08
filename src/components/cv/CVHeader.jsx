@@ -7,7 +7,7 @@ import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import profilePhoto from '../../images/profile-photo.jpg'
 
 const CVHeader = ({ data }) => {
-    const CVData = data.cvJson
+    const CVData = data.dataJson
 
     return (
         <div className="lg:grid lg:grid-cols-3 lg:gap-6">
@@ -41,7 +41,7 @@ export default (props) => (
     <StaticQuery 
         query={graphql`
             query {
-                cvJson {
+                dataJson {
                     bio
                     cv_pdf
                     name

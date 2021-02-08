@@ -24,7 +24,7 @@ export default (props) => (
         query={graphql`
             query {
                 allMarkdownRemark(
-                    sort: { fields: [frontmatter___order], order: ASC },
+                    sort: { fields: [frontmatter___cv_order], order: ASC },
                     filter: {
                         frontmatter: {
                             cv_section: {eq: "projects"}
@@ -36,7 +36,7 @@ export default (props) => (
                             id
                             frontmatter {
                                 title
-                                link
+                                cv_link
                                 start_date
                                 end_date
                                 team_size
@@ -50,4 +50,4 @@ export default (props) => (
         `}
         render={(data) => <CVProjects data={data} {...props} />}
     />
-)
+)   

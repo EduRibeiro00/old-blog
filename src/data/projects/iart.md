@@ -1,11 +1,11 @@
 ---
 title: Covid Forecast Tool
-link: https://github.com/EduRibeiro00/CovidForecast-feup-iart
+cv_link: https://github.com/EduRibeiro00/CovidForecast-feup-iart
 start_date: May 2020
 end_date: Jun 2020
 team_size: 3
 techs: [Python, Jupyter Notebook, SKLearn, Pandas, Numpy, Matplotlib, Seaborn, Kaggle datasets]
-order: 2
+cv_order: 2
 cv_section: projects
 ---
 * Extracted Covid-19 data from a Kaggle dataset that contained the confirmed, death, and recovered cases for each day and for each country/region; developed and trained several regression models with the goal of successfully predicting Covid-19 cases and deaths.

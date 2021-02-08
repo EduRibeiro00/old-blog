@@ -16,6 +16,7 @@ const Blog = ({data}) => {
                 {
                   data.allMarkdownRemark.edges.map(({ node }) => (
                     <BlogPostCard 
+                        key={node.id}
                         className="w-9/12 md:w-80 mx-5 my-3" 
                         node={node}
                     />
@@ -41,6 +42,7 @@ export const query = graphql`
             totalCount
             edges {
                 node {
+                    id
                     frontmatter {
                         title
                         post_date(formatString: "DD MMMM, YYYY")
