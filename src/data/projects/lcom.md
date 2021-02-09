@@ -8,7 +8,7 @@ end_date: Jan 2019
 team_size: 2
 techs: [C, Minix OS]
 project: true
-project_page_order: 4
+project_page_order: 15
 ---
 * Developed a Space Invaders style game, where the user had to shoot the different colored enemy ships with bullets of the same color.
 * Developed a graphical interface for the game and added mouse and keyboard functionalities by programming various device drivers and computer peripherals (mouse, keyboard, timer, video card).
