@@ -1,6 +1,6 @@
 ---
 title: Lab 4.0 - Monitoring and Management System for Labs
-cover: ./images/default.jpg
+cover: ./images/ldso.png
 cv_link: http://laboratorio-4.herokuapp.com/login
 product_link: http://laboratorio-4.herokuapp.com/login
 start_date: Oct 2020
@@ -10,7 +10,7 @@ techs: [PHP, Laravel, Javascript, HTML, CSS, PostgreSQL, Python, Flask, OpenCV, 
 cv_order: 0
 cv_section: projects
 project: true
-project_page_order: 0
+project_page_order: 1
 ---
 * **Team leader** and Scrum Master of a project developed for the [Dr. Ricardo Jorge National Health Institute](http://www.insa.pt).
 * Developed web app for management of reagents, samples, procedures and executions, results, and other important data for the institute.

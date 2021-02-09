@@ -52,6 +52,8 @@ export const query = graphql`
                                     ...GatsbyImageSharpFluid
                                 }
                             }
+                            publicURL
+                            extension
                         }
                     }
                     fields {

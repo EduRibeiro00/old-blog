@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import ImageHelper from '../components/ImageHelper'
+
 import { FaCalendar } from '@react-icons/all-files/fa/FaCalendar'
 import { FaClock } from '@react-icons/all-files/fa/FaClock'
 
@@ -9,12 +10,12 @@ import Layout from '../components/Layout'
 
 const BlogPost = ({ data }) => {
     const post = data.markdownRemark
-    const coverImg = post.frontmatter.cover.childImageSharp.fluid
+    const coverImg = post.frontmatter.cover
 
     return (
         <Layout>
 			<div className="w-1/2 rounded-2xl overflow-hidden m-auto">
-				<Img fluid={coverImg} />
+				<ImageHelper image={coverImg} />
 			</div>
             <h1 className="mt-5 text-center text-5xl">{post.frontmatter.title}</h1>
             <div className="flex justify-center mt-3 text-xs">
@@ -42,7 +43,9 @@ export const query = graphql`
 						...GatsbyImageSharpFluid
 					}
 				}
-        	}
+				publicURL
+				extension
+			}
         }
     }
   }
