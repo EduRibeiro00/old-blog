@@ -15,21 +15,11 @@ const Header = ({ links }) => {
             </div>
             
             <div className={`mt-4 md:mt-0 md:flex flex-col md:flex-row items-start md:items-stretch w-full md:w-auto ${menuOpen ? "flex" : "hidden"}`}>
-                <div className="header-link px-4 pt-4 pb-3">
-                    <a className="text-white text-sm hover:text-white" href="/blog">Blog</a>
-                </div>
-                <div className="header-link px-4 pt-4 pb-3">
-                    <a className="text-white text-sm hover:text-white" href="/cv">CV</a>
-                </div>
-                <div className="header-link px-4 pt-4 pb-3">
-                    <a className="text-white text-sm hover:text-white" href="/projects">Projects</a>
-                </div>
-                <div className="header-link px-4 pt-4 pb-3">
-                    <a className="text-white text-sm hover:text-white" href={links.github.link}>GitHub</a>
-                </div>
-                <div className="header-link px-4 pt-4 pb-3">
-                    <a className="text-white text-sm hover:text-white" href={links.linkedin.link}>LinkedIn</a>
-                </div>
+                <a className="header-link" href="/blog">Blog</a>
+                <a className="header-link" href="/cv">CV</a>
+                <a className="header-link" href="/projects">Projects</a>
+                <a className="header-link" href={links.github.link}>GitHub</a>
+                <a className="header-link" href={links.linkedin.link}>LinkedIn</a>
             </div>
         </nav>
     )
