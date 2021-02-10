@@ -15,7 +15,7 @@ My name is Eduardo Ribeiro, I'm 20 years old and I'm from [Porto, in Portugal](h
 
 Since entering university and learning more about programming and software development, I fell in love with this area, and it is without a doubt what I want to be pursuing for my career (at least for now... we never know what the future holds 👀). Despite of that, I still don't know *exactly* what I want to be doing, but I am interested in various areas and topics like distributed systems, web development, AI, IoT, cloud, and others.
 
-So... what do I do apart from software related stuff? I am a big fan of sports, mainly football and tennis, and I've recently started to follow the NBA (kind of). I also love chess, being one of the things I want to get better at this year. Another big hobby that I've picked up last year is learning new languages, and I am currently learning German. Other hobbies include your typical "gaming", "travelling" and "music".
+So... what do I do apart from software related stuff? I am a big fan of sports, mainly football and tennis, and I've recently started to follow the NBA (kind of). I also love chess, being one of the things I want to get better at this year. Another big hobby that I've picked up last year is learning new languages, and I am currently learning German. Other hobbies include your typical "gaming", "traveling" and "music".
 
 # What I've been recently up to
 
@@ -50,8 +50,6 @@ And lastly, this is kind of my entry point into content creation, something that
 # What to expect from this blog?
 
 I'll keep this blog mainly for tech and software related stuff: activities that I've been doing, projects that I've been working on, and topics I've researched about or just found on the Internet. However, be ready for occasional sprinkles of random stuff that I might chuck into this website 🤩
-
-[img](./images/little_me.jpg)
 
 And that's about it! Hope this post was not too boring/badly structured/long, maybe it was all of the 3, I don't know. I promise I will get better at this. Also, if you have any recommendations, feel free to contact me or open an issue on the [website repository](https://github.com/EduRibeiro00/personal-blog).
 
