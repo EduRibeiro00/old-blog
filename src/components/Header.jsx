@@ -14,7 +14,7 @@ const Header = ({ links }) => {
                 { menuOpen ? <FaTimes /> : <FaBars /> }
             </div>
             
-            <div className={`mt-4 md:mt-0 flex flex-col md:flex-row items-start md:items-stretch md:w-auto w-full ${menuOpen ? "block" : "hidden"}`}>
+            <div className={`mt-4 md:mt-0 md:flex flex-col md:flex-row items-start md:items-stretch w-full md:w-auto ${menuOpen ? "flex" : "hidden"}`}>
                 <div className="header-link px-4 pt-4 pb-3">
                     <a className="text-white text-sm hover:text-white" href="/blog">Blog</a>
                 </div>
