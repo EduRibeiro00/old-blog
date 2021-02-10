@@ -1,0 +1,62 @@
+html, body {
+    @apply min-h-screen;
+}
+
+ul, ol {
+    @apply list-inside;
+}
+
+ul {
+    @apply list-disc;
+}
+
+ol {
+    @apply list-decimal;
+}
+
+a {
+    @apply bg-none shadow-none text-blue-600 hover:text-blue-900;
+    text-shadow: none;
+}
+
+.header-link {
+    @apply border-l-4 md:border-b-4 md:border-l-0 border-transparent hover:border-white transition;
+}
+
+.header-link:hover {
+    border-color: white;
+}
+
+.btn-blue {
+    @apply px-3 py-1 rounded-lg bg-blue-800 hover:bg-blue-900 text-white hover:text-white;
+}
+
+.btn-white {
+    @apply border border-black px-3 py-1 rounded-lg bg-white hover:bg-gray-300 text-blue-800 hover:text-blue-800;
+}
+
+.profile-pic {
+    @apply rounded-full m-0 border-4 border-blue-600;
+}
+
+
+.blog-post h1 {
+    @apply text-4xl;
+}
+
+.blog-post h2 {
+    @apply text-3xl;
+}
+
+.blog-post h3 {
+    @apply text-2xl;
+}
+
+.blog-post h1, .blog-post h2, .blog-post h3 {
+    @apply mt-10 mb-3;
+}
+
+.blog-post p, .blog-post ul, .blog-post ol,
+.blog-post blockquote {
+    @apply my-3;
+}

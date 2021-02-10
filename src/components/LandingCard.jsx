@@ -13,7 +13,7 @@ const age = (birthday => {
     return age
 })("2000-04-04")
 
-const LandingCard = () => {
+const LandingCard = ({ links }) => {
     return (
         <div className="flex flex-col items-center max-w-md bg-white px-10 py-3 shadow-2xl rounded-xl">
             <div className="p-0 mb-2 w-1/3">
@@ -36,10 +36,10 @@ const LandingCard = () => {
                 <a className="m-2 btn-blue" href="/projects">
                     Projects
                 </a>
-                <a className="m-2 btn-blue" href="https://github.com/EduRibeiro00">
+                <a className="m-2 btn-blue" href={links.github.link}>
                     GitHub
                 </a>
-                <a className="m-2 btn-blue" href="https://www.linkedin.com/in/eduardocribeiro/">
+                <a className="m-2 btn-blue" href={links.linkedin.link}>
                     LinkedIn
                 </a>
             </div>
