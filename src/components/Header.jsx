@@ -10,7 +10,12 @@ const Header = ({ links }) => {
     return (
         <nav className={`flex flex-wrap pt-4 ${pBottomNav} md:py-0 pr-5 md:pr-0 bg-gradient-to-l from-gray-900 to-blue-800 items-center justify-between`}>
             <a className="ml-5 text-white font-bold hover:text-white" href="/">Eduardo Ribeiro</a>
-            <div onClick={() => setMenuOpen(!menuOpen)} className="md:hidden block text-white cursor-pointer">
+            <div 
+                onKeyPress={() => setMenuOpen(!menuOpen)}
+                onClick={() => setMenuOpen(!menuOpen)} 
+                className="md:hidden block text-white cursor-pointer"
+                role="button"
+                tabIndex={0}>
                 { menuOpen ? <FaTimes /> : <FaBars /> }
             </div>
             

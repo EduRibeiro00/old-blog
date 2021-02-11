@@ -13,8 +13,7 @@ const SEO = ({ title, description, image, article }) => {
         titleTemplate,
         defaultDescription,
         siteUrl,
-        defaultImage,
-        twitterUsername,
+        defaultImage
     } = site.siteMetadata
     
     const seo = {
@@ -26,6 +25,9 @@ const SEO = ({ title, description, image, article }) => {
 
     return (
         <Helmet title={seo.title} titleTemplate={titleTemplate}>
+            <meta charSet="utf-8" />
+            <link rel="canonical" href={seo.url} />
+
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
             {seo.url && <meta property="og:url" content={seo.url} />}
@@ -46,7 +48,7 @@ query SEO {
             defaultTitle: title
             titleTemplate
             defaultDescription: description
-            siteUrl: url
+            siteUrl
             defaultImage: image
         }
     }

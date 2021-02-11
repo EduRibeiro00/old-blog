@@ -6,7 +6,7 @@ const ImageHelper = ({ image, className }) => {
     return null;
   }
   if (image.extension === 'gif') {
-    return <img src={image.publicURL} className={className} />;
+    return <img alt="gif" src={image.publicURL} className={className} />;
   }
   return <Img fluid={image.childImageSharp.fluid} className={className} />;
 }

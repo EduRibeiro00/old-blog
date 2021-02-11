@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import Footer from '../components/Footer'
 
@@ -10,7 +11,7 @@ const NotFoundPage = ({ data }) => {
 				404
 			</h1>
 			<p className="font-bold text-center">
-				Hmm...this page doesn't seem to exist 🧐
+				Hmm...this page doesn't seem to exist <span role="img" aria-label="emoji">🧐</span>
 			</p>
 			<a className="mt-10 mb-3 btn-blue" href="/">
 				Back to Main Page

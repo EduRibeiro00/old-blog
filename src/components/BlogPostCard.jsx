@@ -13,7 +13,9 @@ const BlogPostCard = ({ className, node }) => {
     return (
         <article className={className}>
             <Link to={node.fields.slug}>
-                <div 
+                <div
+                    role="link"
+                    tabIndex={0} 
                     onMouseEnter={() => setImageHover(true)}
                     onMouseLeave={() => setImageHover(false)} 
                     className="shadow-2xl rounded-xl overflow-hidden hover:bg-gray-300 transition">

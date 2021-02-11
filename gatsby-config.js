@@ -11,6 +11,7 @@ module.exports = {
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -76,7 +77,7 @@ module.exports = {
     title: "Eduardo Ribeiro",
     titleTemplate: "%s · Eduardo Ribeiro",
     description: "Personal Website and Blog of Eduardo Ribeiro",
-    url: "http://localhost:8000",
+    siteUrl: "http://localhost:8000",
     image: "/images/profile-photo.jpg"
 },
 };
