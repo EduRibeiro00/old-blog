@@ -1,12 +1,14 @@
 import React from 'react'
 
+import SEO from '../components/SEO'
 import LandingCard from '../components/LandingCard'
 import Footer from '../components/Footer'
 
 const LandingPage = ({ data }) => {
   return (
     <main className="bg-gradient-to-b from-gray-900 to-blue-600 flex flex-col items-center justify-center h-screen">
-      <LandingCard links={data.dataJson}/>
+      <SEO title="Welcome!" />
+	  <LandingCard links={data.dataJson}/>
       <div className="absolute bottom-0">
         <Footer links={data.dataJson}/>
       </div>

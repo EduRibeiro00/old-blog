@@ -10,6 +10,7 @@ module.exports = {
     "gatsby-transformer-json",
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -28,11 +29,26 @@ module.exports = {
       options: {
         plugins: [
             {
+              resolve: "gatsby-remark-embed-video",
+              options: {
+                width: 800,
+                ratio: 1.77,
+                height: 400,
+                related: false,
+                noIframeBorder: true,
+                urlOverrides: [
+                  {
+                    id: "youtube",
+                    embedURL: videoId =>
+                      `https://www.youtube-nocookie.com/embed/${videoId}`,
+                  },
+                ],
+                containerClass: "embedVideo-container",
+              },
+            },
+            {
               resolve: `gatsby-remark-images`,
               options: {
-                // It's important to specify the maxWidth (in pixels) of
-                // the content container as this plugin uses this as the
-                // base for generating different widths of each image.
                 maxWidth: 590,
               },
             },
@@ -56,4 +72,11 @@ module.exports = {
       }
     }
   ],
+  siteMetadata: {
+    title: "Eduardo Ribeiro",
+    titleTemplate: "%s · Eduardo Ribeiro",
+    description: "Personal Website and Blog of Eduardo Ribeiro",
+    url: "http://localhost:8000",
+    image: "/images/profile-photo.jpg"
+},
 };

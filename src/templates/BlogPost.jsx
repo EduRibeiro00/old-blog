@@ -5,8 +5,8 @@ import ImageHelper from '../components/ImageHelper'
 import { FaCalendar } from '@react-icons/all-files/fa/FaCalendar'
 import { FaClock } from '@react-icons/all-files/fa/FaClock'
 
+import SEO from '../components/SEO'
 import Layout from '../components/Layout'
-
 
 const BlogPost = ({ data }) => {
     const post = data.markdownRemark
@@ -14,6 +14,7 @@ const BlogPost = ({ data }) => {
 
     return (
         <Layout>
+			<SEO title={post.frontmatter.title} article={true} />
 			<div className="w-2/5 rounded-2xl overflow-hidden m-auto">
 				<ImageHelper image={coverImg} />
 			</div>
