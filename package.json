@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "build:css": "tailwind build src/css/tailwind.css -o src/css/common.css",
-    "deploy": "npm run build:css && npm run build && npm run serve"
+    "deploy": "npm run build:css && npm run build"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",

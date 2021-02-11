@@ -76,7 +76,7 @@ module.exports = {
     title: "Eduardo Ribeiro",
     titleTemplate: "%s · Eduardo Ribeiro",
     description: "Personal Website and Blog of Eduardo Ribeiro",
-    siteUrl: "http://localhost:8000",
+    siteUrl: "https://eduardocribeiro.netlify.app",
     image: "/images/profile-photo.jpg"
 },
 };
