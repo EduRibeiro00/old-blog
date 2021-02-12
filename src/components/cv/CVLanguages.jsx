@@ -7,7 +7,7 @@ const CVLanguages = ({ data }) => {
             <h2 className="text-2xl mb-2 underline">Languages</h2>
             {
                 data.allLanguagesJson.edges.map(({ node }) => (
-                    <div className="text-sm"><span className="font-bold text-black">{node.name}:</span> {node.level}</div>
+                    <div key={node.id} className="text-sm"><span className="font-bold text-black">{node.name}:</span> {node.level}</div>
                 ))
             }
         </div>
@@ -21,6 +21,7 @@ export default (props) => (
                 allLanguagesJson {
                     edges {
                         node {
+                            id
                             level
                             name
                         }

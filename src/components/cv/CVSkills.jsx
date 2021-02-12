@@ -7,12 +7,12 @@ const CVSkills = ({ data }) => {
             <h2 className="text-2xl mb-2 underline">Skills</h2>
             {
                 data.allSkillsJson.edges.map(({ node }) => (
-                    <div className="mb-2">
+                    <div key={node.id} className="mb-2">
                         <h3 className="text-sm">{node.level}</h3>
                         <div className="flex flex-wrap mt-1">
                             {
                                 node.skills.map(skill => (
-                                    <div className="btn-blue text-sm mr-2 my-1">{skill}</div>
+                                    <div key={skill} className="btn-blue text-sm mr-2 my-1">{skill}</div>
                                 ))
                             }
                         </div>
@@ -30,6 +30,7 @@ export default (props) => (
                 allSkillsJson {
                     edges {
                         node {
+                            id
                             level
                             skills
                         }

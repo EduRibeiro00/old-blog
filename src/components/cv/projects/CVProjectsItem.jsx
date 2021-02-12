@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaExternalLinkAlt } from '@react-icons/all-files/fa/FaExternalLinkAlt'
 
 const CVProjectsItem = ({ node }) => {
     const dateStr = node.frontmatter.start_date === node.frontmatter.end_date ?
@@ -27,7 +26,7 @@ const CVProjectsItem = ({ node }) => {
 
     return (
         <div className="mb-8">
-            <h1 className="mb-1 inline-block text-xl"> <a className="flex items-center" href={node.frontmatter.cv_link}><span className="mr-1">{node.frontmatter.title}</span><FaExternalLinkAlt /></a></h1>
+            <h1 className="mb-1 inline-block text-xl"> <a className="flex items-center" href={node.frontmatter.cv_link}>{node.frontmatter.title}</a></h1>
             <div className="flex text-gray-600 text-sm italic">
                 <div className="pr-2 border-r border-gray-600">{dateStr}</div>
                 <div className="pl-2">{numPeople}</div>

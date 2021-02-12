@@ -19,7 +19,7 @@ const Blog = ({data}) => {
                   data.allMarkdownRemark.edges.map(({ node }) => (
                     <BlogPostCard 
                         key={node.id}
-                        className="w-9/12 md:w-80 mx-5 my-3" 
+                        className="w-full md:w-80 mx-5 my-3" 
                         node={node}
                     />
                   ))

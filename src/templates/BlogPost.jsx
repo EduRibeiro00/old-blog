@@ -15,7 +15,7 @@ const BlogPost = ({ data }) => {
     return (
         <Layout>
 			<SEO title={post.frontmatter.title} article={true} />
-			<div className="w-2/5 rounded-2xl overflow-hidden m-auto">
+			<div className="w-full lg:w-2/5 rounded-2xl overflow-hidden m-auto">
 				<ImageHelper image={coverImg} />
 			</div>
             <h1 className="mt-5 text-center text-5xl">{post.frontmatter.title}</h1>
@@ -23,7 +23,7 @@ const BlogPost = ({ data }) => {
 				<div className="flex items-center mx-2"><FaCalendar className="text-base mr-1" />{post.frontmatter.post_date}</div>
 				<div className="flex items-center mx-2"> <FaClock className="text-base mr-1" /> {post.timeToRead} {post.timeToRead === 1 ? 'min' : 'mins'}</div>
             </div>
-            <div className="blog-post my-8 px-6" dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div className="blog-post my-8 px-0 lg:px-6" dangerouslySetInnerHTML={{ __html: post.html }} />
         </Layout>
     )
 }

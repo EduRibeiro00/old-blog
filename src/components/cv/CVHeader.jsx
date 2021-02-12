@@ -16,7 +16,7 @@ const CVHeader = ({ data }) => {
                 <div className="mt-4">
                     {
                         CVData.occupations.map((occupation) => (
-                            <h2 className="text-lg">{occupation.title} @ <a href={occupation.institution_link}>{occupation.institution}</a></h2>
+                            <h2 key={occupation.title} className="text-lg">{occupation.title} @ <a href={occupation.institution_link}>{occupation.institution}</a></h2>
                         ))
                     }
                 </div>

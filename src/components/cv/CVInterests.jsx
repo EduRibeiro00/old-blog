@@ -8,7 +8,7 @@ const CVInterests = ({ data }) => {
             <div className="flex flex-wrap">
                 {
                     data.allInterestsJson.edges.map(({ node }) => (
-                        <div className="btn-white text-sm mr-2 my-1">{node.name}</div>
+                        <div key={node.id} className="btn-white text-sm mr-2 my-1">{node.name}</div>
                     ))
                 }
             </div>
@@ -23,6 +23,7 @@ export default (props) => (
                 allInterestsJson {
                     edges {
                         node {
+                            id
                             name
                         }
                     }

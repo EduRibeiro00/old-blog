@@ -66,7 +66,7 @@ const BlogPostCard = ({ className, node }) => {
                 <div className="flex flex-col justify-between w-auto lg:h-auto lg:w-2/3 p-3">
                     <div>
                         <h1 className="text-lg">{node.frontmatter.title}</h1>
-                        <div className="flex text-gray-600 text-xs italic">
+                        <div className="mt-1 flex text-gray-600 text-xs italic">
                             <div className="pr-2 border-r border-gray-600">{dateStr}</div>
                             <div className="pl-2">{numPeople}</div>
                         </div>
