@@ -23,8 +23,8 @@ const BlogPostCard = ({ className, node }) => {
                         <ImageHelper className={`${imageScale} transform transition duration-300`} image={coverImg} />
                     </div>
                     <div className="p-2">
-                        <h1 className="text-lg">{node.frontmatter.title}</h1>
-                        <div className="text-gray-700 text-xs">{node.excerpt}</div>
+                        <h1 className="post-card-title">{node.frontmatter.title}</h1>
+                        <div className="mt-1 text-gray-700 text-xs">{node.excerpt}</div>
                         <div className="flex justify-between mt-2 text-xs text-gray-700">
                             <div className="flex items-center"><FaCalendar className="text-base mr-1" />{node.frontmatter.post_date}</div>
                             <div className="flex items-center"> <FaClock className="text-base mr-1" /> {node.timeToRead} {node.timeToRead === 1 ? 'min' : 'mins'}</div>

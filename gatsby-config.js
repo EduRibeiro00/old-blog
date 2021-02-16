@@ -78,5 +78,5 @@ module.exports = {
     description: "Personal Website and Blog of Eduardo Ribeiro",
     siteUrl: "https://eduardocribeiro.com",
     image: "/images/profile-photo.jpg"
-},
+  },
 };

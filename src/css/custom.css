@@ -35,6 +35,10 @@ a {
     @apply rounded-full m-0 border-4 border-blue-600;
 }
 
+.post-card-title {
+    @apply text-lg;
+    line-height: 1.45rem;
+}
 
 .blog-post h1 {
     @apply text-4xl;
