@@ -56,7 +56,18 @@ a {
     @apply mt-10 mb-3;
 }
 
-.blog-post p, .blog-post ul, .blog-post ol,
-.blog-post blockquote {
+.blog-post p {
     @apply my-3;
+}
+
+.blog-post ul, .blog-post ol {
+    @apply mt-5 mb-7;
+}
+
+.blog-post blockquote {
+    @apply mx-12 my-8 border-blue-600;
+}
+
+.blog-post code {
+    @apply text-sm bg-gray-300;
 }

@@ -19,7 +19,7 @@ const BlogPost = ({ data }) => {
 				<ImageHelper image={coverImg} />
 			</div>
             <h1 className="mt-5 text-center text-5xl">{post.frontmatter.title}</h1>
-            <div className="flex justify-center mt-3 text-xs">
+            <div className="flex justify-center mt-5 text-xs">
 				<div className="flex items-center mx-2"><FaCalendar className="text-base mr-1" />{post.frontmatter.post_date}</div>
 				<div className="flex items-center mx-2"> <FaClock className="text-base mr-1" /> {post.timeToRead} {post.timeToRead === 1 ? 'min' : 'mins'}</div>
             </div>
