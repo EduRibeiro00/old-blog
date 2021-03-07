@@ -5,8 +5,6 @@ cover: ./images/blockchain.jpg
 blogpost: true
 ---
 
-# Introduction
-
 Blockchain feels like a term that many people have heard about, but some of them don't actually know what it is. There is a lot of misinformation about it.
 
 I myself have had curiosity to learn what blockchain is for a long time, but never actually did so until recently, when I started working on a project that will use blockchain technology with smart contracts.
