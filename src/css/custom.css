@@ -65,7 +65,7 @@ a {
 }
 
 .blog-post blockquote {
-    @apply mx-12 my-8 border-blue-600;
+    @apply md:mx-12 my-8 border-blue-600;
 }
 
 .blog-post code {
