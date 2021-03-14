@@ -25,7 +25,7 @@ So, to put it concisely:
 
 > A smart contract is a computer program or a transaction protocol, which represents an agreement between two people or entities. They run entirely on the blockchain, and all transactions are processed there, without the need of a third party. The transactions only occur after the conditions in the agreement are met, and when that happens, they are performed automatically.
 
-It can been seen as a kind of **if-then statement**: if and only if a certain condition is met, then the transaction or payment is executed. When that "if" condition is validated, the "then" statement is automatically executed, and there is no chance for changing or tampering with these contracts. That "if" statement can be, for example, an expiration date.
+It can be seen as a kind of **if-then statement**: if and only if a certain condition is met, then the transaction or payment is executed. When that "if" condition is validated, the "then" statement is automatically executed, and there is no chance for changing or tampering with these contracts. That "if" statement can be, for example, an expiration date.
 
 ![Smart Contract Image](./images/smart_contract_img.png)
 
@@ -45,7 +45,7 @@ The smart contract can then be described, in a very simple fashion, as:
 
 Alice and Bob then create the smart contract using the Ethereum platform.
 
-Once this smart contract as been registered and put into place, **it cannot be changed**: there is no way that Alice can modify the contract and lower the price, and the same also applies to Bob, who cannot raise the price or change the benefits given to Alice after the payment.
+Once this smart contract has been registered and put into place, **it cannot be changed**: there is no way that Alice can modify the contract and lower the price, and the same also applies to Bob, who cannot raise the price or change the benefits given to Alice after the payment.
 
 Because of that, Alice can feel safe paying the 30 Ether to Bob, because she knows that she will for sure receive ownership of the car. Bob should be pretty relaxed too: he knows that Alice will only get the benefits if she pays the agreed fee of 30 Ether.
 
@@ -77,7 +77,7 @@ However, they are not a perfect solution. Here are some challenges that come wit
 
 * **Difficult to change** - The unmodifiable aspect of the blockchain and of smart contracts can be both a blessing and a curse. While it does provide security and safety, if for example there is an error on the code of the contract, the process of fixing that error can be time-consuming and expensive.
 * **Translation into code** - Contracts can include terms that are not always fully understood. Smart contracts are not always able to handle terms and conditions that are vague.
-* **Third parties** - This one may seem contradictory, since one of the main benefits of smart contracts is the elimination of third parties. However, the issue is more complicated that it seems. It may get rid of the need for brokers or other intermediaries to confirm the agreement, but sometimes, for example, layers may still be needed by developers to understand the terms in order to create the code for smart contracts. Third parties may assume different roles from the ones they take in traditional contracts.
+* **Third parties** - This one may seem contradictory, since one of the main benefits of smart contracts is the elimination of third parties. However, the issue is more complicated than it seems. It may get rid of the need for brokers or other intermediaries to confirm the agreement, but sometimes, for example, layers may still be needed by developers to understand the terms in order to create the code for smart contracts. Third parties may assume different roles from the ones they take in traditional contracts.
 
 Other problems may also arise, like legal issues related to how governments should regulate these contracts, how would they tax them, etc.
 
