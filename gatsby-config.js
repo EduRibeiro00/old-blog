@@ -31,11 +31,10 @@ module.exports = {
             {
               resolve: "gatsby-remark-embed-video",
               options: {
-                width: 800,
                 ratio: 1.77,
-                height: 400,
                 related: false,
                 noIframeBorder: true,
+                loadingStrategy: 'lazy',
                 urlOverrides: [
                   {
                     id: "youtube",
@@ -43,7 +42,7 @@ module.exports = {
                       `https://www.youtube-nocookie.com/embed/${videoId}`,
                   },
                 ],
-                containerClass: "embedVideo-container",
+                containerClass: "video-container",
               },
             },
             {

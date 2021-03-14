@@ -71,3 +71,7 @@ a {
 .blog-post code {
     @apply text-sm bg-gray-300;
 }
+
+.video-container iframe {
+    @apply my-0 mx-auto max-w-full;
+}
