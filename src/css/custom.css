@@ -56,7 +56,7 @@ a {
     @apply mt-10 mb-3;
 }
 
-.blog-post p {
+.blog-post p, .blog-post .gatsby-resp-image-wrapper {
     @apply my-3;
 }
 
