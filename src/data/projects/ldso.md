@@ -1,5 +1,5 @@
 ---
-title: Lab 4.0 - Monitoring and Management System for Labs
+title: Labcentric - Monitoring and Management System for Labs
 cover: ./images/ldso.png
 cv_link: http://laboratorio-4.herokuapp.com/login
 product_link: http://laboratorio-4.herokuapp.com/login
@@ -12,7 +12,7 @@ cv_section: projects
 project: true
 project_page_order: 0
 ---
-* **Team leader** and Scrum Master of a project being developed for the [Dr. Ricardo Jorge National Health Institute](http://www.insa.pt).
+* **Team leader** of a project being developed for the [Dr. Ricardo Jorge National Health Institute](http://www.insa.pt).
 * Developed web app for management of reagents, samples, procedures and executions, results, and other important data for the institute.
 * Developed a Computer Vision module that identifies QR Codes on reagents and monitors the scientist's steps when executing a procedure.
 * Integrated a CI/CD pipeline for linting, testing, and deploying the application on a Heroku server.
