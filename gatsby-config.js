@@ -104,6 +104,9 @@ module.exports = {
                   date: edge.node.frontmatter.post_date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  enclosure: edge.node.frontmatter.cover && {
+                    url: site.siteMetadata.siteUrl + edge.node.frontmatter.cover.publicURL,
+                  },
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
@@ -125,6 +128,9 @@ module.exports = {
                           frontmatter {
                               title
                               post_date(formatString: "DD MMMM, YYYY")
+                              cover {
+                                publicURL
+                              }
                           }
                           fields {
                               slug
