@@ -1,9 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: "Eduardo Ribeiro",
-    titleTemplate: "%s ~ Eduardo Ribeiro",
-    description: "educribeiro's personal website and blog",
-  },
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-transformer-json",

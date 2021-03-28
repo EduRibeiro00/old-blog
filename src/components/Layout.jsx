@@ -19,19 +19,25 @@ const Layout = ({ data, children }) => {
 export default (props) => (
     <StaticQuery 
         query={graphql`
-            query {
-                dataJson {
-                    email {
-                        link
-                    }
-                    github {
-                        link
-                    }
-                    linkedin {
-                        link
-                    }
-                }
-            }          
+			query {
+				dataJson {
+					email {
+						link
+					}
+					github {
+						link
+					}
+					linkedin {
+						link
+					}
+					dev {
+						link
+					}
+					medium {
+						link
+					}
+				}
+			} 
         `}
         render={(data) => <Layout data={data} {...props} />}
     />

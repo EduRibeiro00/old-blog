@@ -18,7 +18,7 @@ const NotFoundPage = ({ data }) => {
 			</a>
 		</div>
 		<div className="absolute bottom-0">
-		<Footer links={data.dataJson}/>
+		<Footer links={data.dataJson} />
 		</div>
     </main>
   )
@@ -36,6 +36,12 @@ export const query = graphql`
 				link
 			}
 			linkedin {
+				link
+			}
+			dev {
+				link
+			}
+			medium {
 				link
 			}
 		}
