@@ -8,4 +8,4 @@ location: Porto, Portugal
 order: 1
 cv_section: experience
 ---
-* Assisting the professors during the practical classes of **IART - Artificial Intelligence**, by helping students regarding Problem Solving algorithms, Knowledge Engineering, Natural Language Processing, and Machine Learning.
+* Assisted the professors during the practical classes of **IART - Artificial Intelligence**, by helping students regarding Search and Optimization algorithms, Knowledge Engineering, Natural Language Processing, and Machine Learning.
