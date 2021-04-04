@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "build:css": "tailwind build src/css/tailwind.css -o src/css/common.css",
-    "deploy": "npm run build:css && npm run build"
+    "deploy": "npm install && npm run build:css && npm run build"
   },
   "dependencies": {
     "@deckdeckgo/highlight-code": "^2.5.1",
