@@ -5,6 +5,9 @@ import SEO from '../components/SEO'
 import LandingCard from '../components/LandingCard'
 import Footer from '../components/Footer'
 
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader'
+deckDeckGoHighlightElement()
+
 const LandingPage = ({ data }) => {
   return (
     <main className="bg-gradient-to-b from-gray-900 to-blue-600 flex flex-col items-center justify-center h-screen">

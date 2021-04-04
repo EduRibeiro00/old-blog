@@ -24,6 +24,9 @@ module.exports = {
       options: {
         plugins: [
             {
+              resolve: `gatsby-remark-highlight-code`
+            },
+            {
               resolve: "gatsby-remark-embed-video",
               options: {
                 ratio: 1.77,
