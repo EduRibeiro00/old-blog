@@ -8,7 +8,11 @@ import { FaClock } from '@react-icons/all-files/fa/FaClock'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
 
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader'
+
 const BlogPost = ({ data }) => {
+	deckDeckGoHighlightElement()
+
     const post = data.markdownRemark
     const coverImg = post.frontmatter.cover
 
