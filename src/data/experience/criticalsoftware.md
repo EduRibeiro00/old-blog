@@ -6,7 +6,7 @@ start_date: Jul 2020
 end_date: Jul 2020
 location: Coimbra, Portugal (Remote)
 techs: [Java, Kafka, SSL, XML]
-order: 2
+order: 3
 cv_section: experience
 ---
 * Learned about the methodologies and tools used in critical projects, such as software for airplanes, trains and banks.

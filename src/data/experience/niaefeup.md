@@ -5,7 +5,7 @@ company_link: https://ni.fe.up.pt/
 start_date: Nov 2019
 end_date: Present
 location: Porto, Portugal
-order: 3
+order: 4
 cv_section: experience
 ---
 * Participated in and organized a variety of events/projects in different areas, ranging from Cybersecurity to AI to Competitive Programming.
