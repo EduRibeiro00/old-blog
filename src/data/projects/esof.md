@@ -10,6 +10,6 @@ techs: [Flutter, SQLite, Gherkin, Bluetooth]
 cv_order: 3
 cv_section: projects
 project: true
-project_page_order: 9
+project_page_order: 13
 ---
 * Contributed to an open source project by developing a mobile app for conferences, that allows the user to see the conference's program and to make a custom schedule, receiving push notifications when an event is about to start and also allowing BT scanning for near-by events.

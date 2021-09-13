@@ -10,7 +10,7 @@ techs: [Python, Jupyter Notebook, SKLearn, Pandas, Numpy, Matplotlib, Seaborn, K
 cv_order: 2
 cv_section: projects
 project: true
-project_page_order: 6
+project_page_order: 8
 ---
 * Extracted Covid-19 data from a Kaggle dataset that contained the confirmed, death, and recovered cases for each day and for each country/region; developed and trained several regression models with the goal of successfully predicting Covid-19 cases and deaths.
 * Used data visualization Python libraries to create graphs in order to better understand data patterns.

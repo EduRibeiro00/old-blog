@@ -7,7 +7,7 @@ end_date: Jul 2020
 team_size: 4
 techs: [Java, JavaCC, Jasmin]
 project: true
-project_page_order: 8
+project_page_order: 12
 ---
 * Developed a tool that serves as a compiler of .jmm files, written in the Java-- language, a subset of the Java language.
 * Implemented various compilation stages, like the lexical and syntactic analysis, the semantic analysis, and the code generation phase.
