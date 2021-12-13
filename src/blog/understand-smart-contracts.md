@@ -77,7 +77,7 @@ However, they are not a perfect solution. Here are some challenges that come wit
 
 * **Difficult to change** - The unmodifiable aspect of the blockchain and of smart contracts can be both a blessing and a curse. While it does provide security and safety, if for example there is an error on the code of the contract, the process of fixing that error can be time-consuming and expensive.
 * **Translation into code** - Contracts can include terms that are not always fully understood. Smart contracts are not always able to handle terms and conditions that are vague.
-* **Third parties** - This one may seem contradictory, since one of the main benefits of smart contracts is the elimination of third parties. However, the issue is more complicated than it seems. It may get rid of the need for brokers or other intermediaries to confirm the agreement, but sometimes, for example, layers may still be needed by developers to understand the terms in order to create the code for smart contracts. Third parties may assume different roles from the ones they take in traditional contracts.
+* **Third parties** - This one may seem contradictory, since one of the main benefits of smart contracts is the elimination of third parties. However, the issue is more complicated than it seems. It may get rid of the need for brokers or other intermediaries to confirm the agreement, but sometimes, for example, lawyers may still be needed by developers to understand the terms in order to create the code for smart contracts. Third parties may assume different roles from the ones they take in traditional contracts.
 
 Other problems may also arise, like legal issues related to how governments should regulate these contracts, how would they tax them, etc.
 
