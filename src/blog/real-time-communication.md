@@ -96,7 +96,5 @@ As always, I hope you have learned something new with this, and that it motivate
 # References
 
 * [YouTube video: HTTP Request vs HTTP Long-Polling vs Websockets vs Server-Sent Events](https://www.youtube.com/watch?v=k56H0DHqu5Y)
-
 * [WebSockets vs Long Polling](https://blog.intive-fdv.com/websockets-vs-long-polling/)
-
 * [What is Publish-Subscribe (Pub/Sub)?](https://www.pubnub.com/learn/glossary/what-is-publish-subscribe/)

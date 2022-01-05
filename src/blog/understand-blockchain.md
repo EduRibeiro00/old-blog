@@ -132,17 +132,10 @@ Thank you for reading and until next time!
 # References
 
 * [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4&t=613s)
-
 * [How does blockchain work](https://www.youtube.com/watch?v=SSo_EIwHSd4)
-
 * [What is the Blockchain: Investopedia](https://www.investopedia.com/terms/b/blockchain.asp)
-
 * [Blockchain: The Complete Guide](https://www.computerworld.com/article/3191077/what-is-blockchain-the-complete-guide.html)
-
 * [A Shallow Dive Into Bitcoin's Blockchain](https://towardsdatascience.com/a-shallow-dive-into-bitcoins-blockchain-part-2-transactions-d4ee83067bae)
-
 * [Top Advantages of Blockchain for Business](https://www.smartdatacollective.com/top-advantages-blockchain-for-businesses/)
-
 * [20 Real World Uses for Blockchain Technology](https://www.fool.com/investing/2018/04/11/20-real-world-uses-for-blockchain-technology.aspx)
-
 * [Remaining Challenges of Blockchain Adoption, and Possible Solutions](https://www.finextra.com/blogposting/18496/remaining-challenges-of-blockchain-adoption-and-possible-solutions)

@@ -93,16 +93,12 @@ Since then, it has become my favorite CSS framework, and I will definitely use i
 
 To be fair, you don't really need a CSS framework for building your website/blog, since it is a fairly simple project, but if you want to, here are a couple of reasons why you may want to consider TailwindCSS:
 
-* It is a utility-first CSS framework meaning that, instead of giving you pre-designed components like `card` or `carousel`, it provides you with low-level classes like `font-medium`, `rotate-90` and `rounded-full`. It gives you the opportunity to fully customize your site and make sure that it is unique and doesn't look like something that was "pre-defined" or "pre-built", which can happen if you use, for example, Bootstrap headers or cards. 
-
+* It is a utility-first CSS framework meaning that, instead of giving you pre-designed components like `card` or `carousel`, it provides you with low-level classes like `font-medium`, `rotate-90` and `rounded-full`. It gives you the opportunity to fully customize your site and make sure that it is unique and doesn't look like something that was "pre-defined" or "pre-built", which can happen if you use, for example, Bootstrap headers or cards.
 * It's really easy to use, and you basically never have to leave your HTML. Here is a code snippet of one of the React components from this website:
-
 <img src="./images/tailwind_snippet.png" alt="Tailwind Snippet" width="400"/>
 
 * It helps you build a responsive website. It has special classes for defining different layouts and components at specific breakpoints, so you never have to write media queries. Example: using the classes `w-16`, `md:w-32` and `lg:w-48` on a specific component helps you define different widths for different screen sizes. It also provides other prefixes like `hover:` and `focus:`. Simple.
-
 * Although Tailwind generates a lot of classes, it's build size is small in production, because it has the ability to purge and delete unused classes.
-
 * It also has great documentation. [Take a look](https://tailwindcss.com/docs).
 
 ## Netlify
@@ -172,19 +168,11 @@ I hope this article was useful to you and that you learned something with it. Ho
 # References
 
 * [How I Created My Blog With Gatsby](https://dev.to/mouhamedaly/how-i-created-my-blog-with-gatsby-1762)
-
 * [Gatsby Official Website](https://www.gatsbyjs.com/)
-
 * [What is GatsbyJS](https://www.mediacurrent.com/blog/what-is-gatsbyjs/)
-
 * [Tailwind CSS Official Website](https://tailwindcss.com/)
-
 * [Six Reasons Why You Should Start Using Tailwind CSS](https://codeburst.io/six-reasons-why-you-should-start-using-tailwind-css-402292c50a70)
-
 * [Why Use Tailwind CSS for Your Next Project](https://dev.to/joserfelix/why-use-tailwind-css-for-your-next-project-39hp)
-
 * [13 reasons why you should be using Netlify](https://dev.to/ogurinkaben/13-reasons-why-you-should-be-using-netlify-kgl)
-
 * [Seriously though. What is a progressive web app?](https://medium.com/@amberleyjohanna/seriously-though-what-is-a-progressive-web-app-56130600a093)
-
 * [RSS: Wikipedia](https://en.wikipedia.org/wiki/RSS)

@@ -88,13 +88,9 @@ The scenario of buying/selling goods, like the example that was given earlier, w
 Let's see how some industries can benefit from the use of smart contracts, and some cases where it's already being used:
 
 * **Insurance Companies** - Some companies have already started using smart contracts as a way to implement insurance policies. For example, let's say take the example of guarantee insurance, that covers the loss that can arise from dishonesty, disappearance, etc. Essentially, it compensates customers if they do not receive a desired service or product. In this case, let's say that the insurance company creates a smart contract and sends $250 to it, and the customer sends $50, making a total of $300. If the customer does end up receiving the service or product, the smart contract sends the insurance company the $300, otherwise it would be sent to the customer in order to compensate for their loss. This approach saves time and money, and both parties can be 100% sure that if their condition is met, they will get the money automatically.
-
 * **Supply Chain** - Supply chain is an area that suffers a lot from paper-based systems that slow down the process and introduce the risk of loss and fraud. Smart contracts can be used as a way to mitigate these issues. By providing a secure, digital version to all parties involved, and by automating tasks and payments, then we can do things like triggering the creation/order of a product in the supply chain after a delivery of some finished product at the end of the chain. 
-
 * **Business Management** - One way that businesses can use smart contracts is to automate the payment of their employees. Examples can be as simple as "WHEN we reach the end of October, THEN send John 2 Ether". John will always be paid on time, no more no less, and the business does not need to worry about anything.
-
 * **Healthcare** - Health systems can use smart contracts to safely store and transfer patient records, allowing no access to third parties. The patients are therefore given full control of their data: if, for example, researchers want to use their data, not only do they have to pay for it, but even then the final decision would be up to the patient, according to if they want to sell it or not.
-
 * **Governments** - Smart contracts constitute a way to make voting systems less susceptible to manipulation. Moreover, it could increase the actual number of voters, because it contributes to eliminate or at least improve the slow process that is required in some countries for someone to vote.
 
 # "Can I make a smart contract??"
@@ -118,13 +114,8 @@ Hopefully you learned something with this, having given you the curiosity to tak
 # References
 
 * [Smart Contract: Wikipedia](https://en.wikipedia.org/wiki/Smart_contract)
-
 * [What Is a Smart Contract and How Does it Work?](https://www.bitdegree.org/crypto/tutorials/what-is-a-smart-contract)
-
 * [Smart Contracts Definition: Investopedia](https://www.investopedia.com/terms/s/smart-contracts.asp)
-
 * [Smart Contracts: The Blockchain Technology That Will Replace Lawyers](https://blockgeeks.com/guides/smart-contracts/)
-
 * [Smart Contracts - Overview, Uses, Benefits, Limitations](https://corporatefinanceinstitute.com/resources/knowledge/deals/smart-contracts/)
-
 * [What are Smart Contracts (Youtube Video)](https://www.youtube.com/watch?v=ZE2HxTmxfrI)

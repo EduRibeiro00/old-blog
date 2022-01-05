@@ -59,17 +59,13 @@ If you have never contributed to an open source project, and don't know how to, 
 ![Fork Button Image](./images/fork_button.png)
 
 * **Create a branch to work on your issue.** In your fork, create a new branch; this is where you will write your code. The naming of the branch should take into account the project's guidelines, and the issue that you are focusing on.
-
 * **Code away!** You will then write the best code of your life. Maybe.
-
 * **Make a Pull Request.** Once you're done coding, you must make a Pull Request, with the source branch being the new branch that you created in your fork, and the destination branch being the master branch or develop branch on the original repository (it may depend on the guidelines, so if you are unsure you should take a look at it once again). Here is an example PR from the Visual Studio Code repository:
 
 ![Example PR Image](./images/example_pr.png)
 
 * **Get feedback.** Maybe your PR wasn't perfect and you made some mistakes, but that's okay! If there are things you should change or improve, other contributors and maintainers of the project will comment on your Pull Request and give indications on what you should change. Gather this feedback and make the necessary changes to your code.
-
 * **Approvals!** Once your code is good enough and you have solved the issue you chose, other contributors will approve your Pull Request, so it can be merged into the main codebase. In the majority of open source projects, you need at least 2 approvals in order to make the merge into the destination branch.
-
 * **Profit!** Congrats! You have just made your first contribution to an open source project! 🎉🎉🎉
 
 # How do I pick an Open Source project to contribute to?
