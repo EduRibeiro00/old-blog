@@ -10,4 +10,4 @@ cv_section: education
 ---
 * **Current cumulative GPA: 18.47/20.** Currently on my 5th year out of 5.
 * **Relevant Coursework:** Systems Architecture, Distributed Systems, Web App Development, Algorithms & Data Structures, Artificial Intelligence
-* Received a **Merit Scholarship** in the 2018/19 Academic Year, given to the best students in Portugal.
+* Received **Merit Scholarships** in the **2018/19** and **2019/20** Academic Years, given to the best students in Portugal.
